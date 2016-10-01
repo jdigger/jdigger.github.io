@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Jim Moore"
+  },
+  "bugs": {
+    "url": "https://github.com/jdigger/jdigger.github.io/issues"
+  },
+  "dependencies": {},
+  "description": "Jim's list of Open Source",
+  "devDependencies": {
+      "bootstrap": "^3",
+      "grunt": "^1",
+      "grunt-contrib-clean": "~1.0.0",
+      "grunt-contrib-connect": "~1.0.0",
+      "grunt-contrib-watch": "~1.0.0",
+      "load-grunt-tasks": "~3.5.0",
+      "grunt-cli": "^1"
+    },
+  "directories": {},
+  "engines": {
+    "node": ">=0.10.1"
+  },
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Jim Moore",
+      "email": "moore.jim@gmail.com"
+    }
+  ],
+  "namez": "Jim Moore Github Page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdigger/jdigger.github.io.git"
+  },
+  "version": "0.0.1"
+}
