@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge"
+        http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1"
+        name="viewport"><!-- -->
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Jim Moore's Open Source</title>
+  <link crossorigin="anonymous"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        rel="stylesheet">
+  <link crossorigin="anonymous"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        rel="stylesheet"><!-- -->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <style>
+    .panel-subheading {
+        background-color: #fffacd;
+    }
+  </style>
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="col-md-2"><img alt="profile pic"
+           height="150"
+           src="https://avatars0.githubusercontent.com/u/3276"></div>
+      <div class="col-md-10">
+        <h1>Jim Moore's Open Source</h1>
+        <p>Below is a collection of some of my recent open source work and public presentations.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        My Projects
+      </div>
+      <div class="panel-body">
+        <div class="panel panel-default">
+          <div class="panel-body panel-subheading">
+            These are projects that I open-sourced and have proven useful to others.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Git Process</h2>
+            <p>A number of Ruby scripts to make it easier to work with Git for large and small teams. Focus is on simple continuous integration even where there are many (dozens) of feature branches
+            going on at a time.</p>
+            <p><a class="btn btn-default"
+               href="https://github.com/jdigger/git-process"
+               role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+            <h2>Gradle Defaults</h2>
+            <p>Plugin providing opinionated defaults for <a href="https://gradle.org/">Gradle</a> builds, making it easier to use some useful plugins, and coordinating between plugins.</p>
+            <p><a class="btn btn-default"
+               href="https://jdigger.github.io/gradle-defaults/"
+               role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Groovy Examples</h2>
+            <p>A large selection of examples of Groovy techniques, tools and idioms implemented as tests. Has been used over the years to help mentor people new to Groovy, encouraging them to try how
+            making changes influences how Groovy behaves.</p>
+            <p><a class="btn btn-default"
+               href="https://github.com/jdigger/groovy_examples"
+               role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+            <h2>My Boxen</h2>
+            <p>Personal template for <a href="https://github.com/blog/1345-introducing-boxen">Boxen</a>, a way of managing OS X with Puppet. While I have largely started to deprecate this in favor of
+            custom scripts and dotfiles (Puppet has been just too heavy for managing a small handful of machines), there are some really cool things in here that I haven't found a great alternative
+            to.</p>
+            <p><a class="btn btn-default"
+               href="https://github.com/jdigger/boxen"
+               role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        Other Projects
+      </div>
+      <div class="panel-body">
+        <div class="panel panel-default">
+          <div class="panel-body panel-subheading">
+            These are projects that I don't "own" but have been a significant contributor to.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Grabbit</h2>
+            <p>Tool to efficiently copy content between instances of Adobe Experience Manager (AEM). The tools provided by Adobe and the Apache Software Foundation could not meet our needs, so we had
+            to create Grabbit. (I am not the primary developer for this, however I am one of the primary architects and technical leads.)</p>
+            <p><a class="btn btn-default"
+               href="https://github.com/TWCable/grabbit"
+               role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Grabbit CLI</h2>
+            <p>A cross-platform command-line interface for Grabbit. Besides providing important capabilities, was also an opportunity to try the techniques in "2016-07 Cool Stuff", below.</p>
+            <p><a class="btn btn-default"
+               href="https://github.com/TWCable/grabbit-cli"
+               role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Jackalope</h2>
+            <p>An in-memory implementation of the JCR with stubbing capabilities for Apache Sling, allowing for easy unit testing of AEM/Sling services.</p>
+            <p><a class="btn btn-default"
+               href="https://github.com/TWCable/jackalope"
+               role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Gradle SCR Plugin</h2>
+            <p>This makes it easier to work for with <a href="https://felix.apache.org/documentation/subprojects/apache-felix-maven-scr-plugin/scr-annotations.html">the Felix SCR annotations</a> for
+            Gradle and OSGi Declarative Services.</p>
+            <p><a class="btn btn-default"
+               href="https://github.com/TWCable/gradle-plugin-scr"
+               role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Gradle CQ Package Plugin</h2>
+            <p>A Gradle plugin that provides extensive capabilities for interacting with the <a href="http://jackrabbit.apache.org/filevault/">Apache Jackrabbit Vault</a> system used by Adobe
+            Experience Manager to install code and content.</p>
+            <p>For much more detail on how this works, see the blog entries I wrote on file formats and system behavior at <a href=
+            "http://blog.mooregreatsoftware.com/2015/08/18/aem-6-dot-1-package-manager-metadata-files/">"AEM 6.1 Package Manager Metadata Files"</a> and <a href=
+            "http://blog.mooregreatsoftware.com/2015/07/21/aem-6-dot-1-packages-and-bundles-installing-and-uninstalling-behavior/">"AEM 6.1 Packages and Bundles - Installing and Uninstalling
+            Behavior"</a>.</p>
+            <p><a class="btn btn-default"
+               href="https://github.com/TWCable/gradle-plugin-cq-package/blob/master/docs/CqPackagePlugin.adoc"
+               role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Gradle CQ Bundle Plugin</h2>
+            <p>Provides support for easily interacting with Apache Sling and Adobe Experience Manager instances using Gradle, particularly with regard to installing, starting/stopping OSGi bundles,
+            etc.</p>
+            <p><a class="btn btn-default"
+               href="https://github.com/TWCable/gradle-plugin-cq-bundle/blob/master/docs/CqBundlePlugin.adoc"
+               role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        Technical Presentations
+      </div>
+      <div class="panel-body">
+        <div class="panel panel-default">
+          <div class="panel-body panel-subheading">
+            Technical presentations I have given publicly in the last few years. HTML5-based, use the arrow keys to navigate.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Git Made Simple</h2>
+            <p>A very popular presentation on the concepts and data-structures underlying Git, meant for novices and advanced users alike. There's a strong focus on understanding how all the pieces
+            fit together to not only understand what Git is doing, but also lay the groundwork for other core principles of distributed computing.</p>
+            <p><a class="btn btn-default"
+               href="https://jdigger.github.io/git-fundimentals-preso/"
+               role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>2016-07 Cool Stuff</h2>
+            <p>Knowledge-sharing of some of the interesting technologies (mostly on the JVM) that I had been experimenting with. Includes things like Lombok, Checker Framework, Reactive Streams,
+            softened throws, Capsule packaging, JDK 8, Either, AsciiDoclet, typed builders, etc.</p>
+            <p><a class="btn btn-default"
+               href="https://jdigger.github.io/201607-cool-stuff-preso/"
+               role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+            <h2>2016-07 Open Source for AEM</h2>
+            <p>Presentation to <a href="http://www.circuitdevcon.com/">Adobe's Developer conference</a> giving an overview of what I was able to get Time Warner Cable to open-source for the Adobe
+            Experience Manager community.</p>
+            <p><a class="btn btn-default"
+               href="https://twcable.github.io/aem-oss-preso/"
+               role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Boxen Overview</h2>
+            <p>Shows how to manage workstations using Git and Puppet using GitHub's "Boxen" project. Explains the benefits of bringing "infrastructure as code" to your workstation, core Puppet
+            concepts, and the important ways that an OS X workstation is different than a standard server system.</p>
+            <p><a class="btn btn-default"
+               href="https://jdigger.github.io/boxen-overview-preso/"
+               role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Spock - Making TDD and BDD More Logical</h2>
+            <p>Introduction to the <a href="http://spockframework.org/spock/docs/1.1-rc-2/all_in_one.html">Spock</a> testing framework, showing its capabilities beyond JUnit, Mockito, etc.</p>
+            <p><a class="btn btn-default"
+               href="https://jdigger.github.io/spock-overview-preso/"
+               role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+            <h2>Adobe CQ/AEM Tech Stack Overview</h2>
+            <p>An engineer-level overview of the technologies in the Adobe Experience Manager platform.</p>
+            <p><a class="btn btn-default"
+               href="https://jdigger.github.io/cq-tech-stack-preso/index.html"
+               role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <p>&copy; 2016 Jim Moore</p>
+    </footer>
+  </div><!-- /container -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> -->
+  <!-- </script> -->
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> -->
+  <!-- </script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+</body>
+</html>
