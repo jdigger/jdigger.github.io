@@ -8,7 +8,7 @@
   "dependencies": {},
   "description": "Jim's list of Open Source",
   "devDependencies": {
-      "bootstrap": "^3",
+      "bootstrap": "5.0.0-alpha1",
       "grunt": "^1",
       "grunt-contrib-clean": "~1.0.0",
       "grunt-contrib-connect": "~1.0.0",
@@ -27,7 +27,7 @@
       "email": "moore.jim@gmail.com"
     }
   ],
-  "namez": "Jim Moore Github Page",
+  "name": "jim-moore-github-page",
   "repository": {
     "type": "git",
     "url": "https://github.com/jdigger/jdigger.github.io.git"
