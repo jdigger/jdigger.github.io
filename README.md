@@ -10,5 +10,5 @@ Requires Node.js and npm.
 
 ```sh
 npm install
-npx grunt        # serves the site at http://localhost:3000
+npm start        # serves the site at http://localhost:3000
 ```
